@@ -37,7 +37,7 @@
     "reactstrap": "^7.1.0",
     "them": "0.0.4",
     "to": "^0.2.9",
-    "yarn": "^1.12.3"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "start": "react-scripts start",
