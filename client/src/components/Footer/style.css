@@ -1,0 +1,276 @@
+  * {
+    box-sizing: border-box;
+  }
+body {
+background: linear-gradient(black, white);
+font-size: 24px;
+font-family: Georgia, Times, 'Times New Roman', serif; 
+ 
+}
+
+.footer {
+  min-height: 100px;
+  position: relative;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: rgb(5, 5, 5);
+  text-align: center;
+  position: fixed;
+  color: white;
+}
+Form {
+  background-color: #21303f !important;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(156, 140, 140);
+}
+.form {
+  background-color: rgb(23, 34, 71) !important;
+}
+.MuiFormHelperText-root-118.MuiFormHelperText-error-119 {
+  color: red !important;
+  font-size: 18px;
+}
+/*
+form input {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+}
+*/
+.about-para {
+  color: darkblue !important;
+  font-size: 24px !important;
+
+}
+.MuiTableCell-head-98 {
+  padding: 0 !important;
+  margin: 0 !important;  
+  padding-left: 10px !important;
+
+}
+.MuiTableCell-head-90 {
+  background-color: #3e8e41 !important;
+}
+.MuiInputBase-root {
+  color: whitesmoke !important;
+}
+.MuiFormHelperText-root-53 {
+  font-size: 18px !important;
+  color: whitesmoke !important;
+}
+ section {
+  width: 100%;
+  padding: 1em;
+  overflow: auto;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 80px;
+ }
+ .section-div {
+    width: 100%;
+    margin-top: 100px;
+ }
+.section {
+  background: radial-gradient(circle at 100%, rgb(252, 255, 254), rgb(131, 209, 240) 50%, #eee 80%, rgb(155, 248, 163) 75%);
+}
+.exe-section {
+  background: radial-gradient(circle at 100%, rgb(255, 210, 210), rgb(134, 250, 203) 50%, #eee 80%, rgb(107, 140, 184) 75%);
+}
+.MuiFormControl-root-1 {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: grid !important;
+  padding-left: 20px !important;
+  
+}
+/*this id good*/
+label.jss16 {
+    color: white !important;
+    font-size: 30px !important;
+    padding-left: 30px !important;
+    font-family: Georgia, Times, 'Times New Roman', serif !important; 
+}
+/*this id good*/
+div.jss1 {
+  display: block !important;
+}
+.h3 {
+  color: white !important;
+}
+label + .MuiInput-formControl-24 {
+  margin-top: 24px !important;
+  font-size: 30px !important;
+  color: white !important;
+}
+
+.h3:hover {
+  background-color: red;
+}
+.h2 {
+  font-size: 28px;
+  font-weight: 700 !important;
+  color: #333 !important;
+  margin-top: 20px;
+}
+/*
+.jss1 {
+    color: white;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    position: relative !important;
+}
+*/
+.jss46{
+  font-size: 30px !important;
+}
+.jss91:hover {
+  background-color: rgb(204, 79, 79);
+}
+.jss90 {
+  color: #333 !important;
+  background-color: #3e8e41 !important;
+}
+.jss87, .jss91, .jss90  {
+  color: white !important;  
+  border: 1px solid #ddd !important;
+  font-size: 30px !important;
+}
+.MuiTableCell-body-91:hover {
+background-color: darkred;
+}
+/*
+.jss23 {
+  position: static !important;
+}
+*/
+.jss82 {
+  padding-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 9px rgb(58, 52, 52);
+}
+.jss36 {
+  display: inline-block;
+}
+/* form input fields*/
+label + .jss24 {
+  width: 100% !important;
+  margin-top: 24px !important;
+  padding-left: 25px !important;
+  font-size: 30px !important;
+  color: white !important;
+}
+h1 {
+  color: #5d5e61 !important;
+  font-weight: 700 !important;
+}
+.about-h1 {
+  color: #333 !important;
+}
+.about-h1f, .nav-h2, .nav-h3 {
+  color: white !important;
+}
+.about-div {
+  margin-top: 100px;
+}
+.MuiInputLabel-root-5 {
+  padding: 0 !important;
+  margin: 0 !important;
+  padding-left: 20px !important;
+  color: whitesmoke !important;
+  font-size: 24px !important;
+
+}
+.chart {
+  background: radial-gradient(#d6d6d6, #9198e5);
+}
+.MuiTableCell-root-89 {
+  font-size: 24px !important;
+  color: whitesmoke !important;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.tbody{
+  background-color: #4286f4;
+  margin-top: 30px;
+  width: 50%;
+  display: inline-table !important;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(156, 140, 140);
+  }
+  
+.exe-tbody {
+  background-color: rgb(65, 65, 65) !important;
+  box-shadow: 0 5px rgb(241, 239, 239);
+  padding-bottom: 20px;
+  border-radius: 15px !important;
+  box-shadow: 0 9px rgb(156, 140, 140);
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(30, 75, 223) !important;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 10px !important;
+  margin-left: 40% !important;
+  width: 100px;
+}
+
+.navbar-right {
+  margin-left: 30%;
+}
+.button:hover {
+  background-color: red !important;
+}
+.button:active {
+  background-color: #3e8e41 !important;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    background-color: lightblue !important;
+  }
+  .button {
+    margin-left: 40% !important;
+
+  }
+  .button:hover {
+    background-color: yellow !important;
+  }
+  .row {
+    margin-top: 10px !important;
+ }
+ .tbody{
+  padding: 0 !important;
+  background-color: #777373;
+  width: 100% !important;
+  }
+  .chart {
+    background-color: #3e8e41 !important;
+  }
+  .h3:hover {
+    background-color: rgb(31, 68, 231);
+  }
+  .navbar {
+    background-color: #777 !important;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+}
